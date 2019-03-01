@@ -1,6 +1,6 @@
 ## Compilation de Lisp en VM Java
 
-Ce projet a pour consiste en la programmation d'un compilateur du langage Common Lisp vers la machine virtuelle JAVA.  
+Ce projet consiste en la programmation d'un compilateur du langage Common Lisp vers la machine virtuelle JAVA.  
 Le compilateur est programmé en Common Lisp.
 
 ### Cadre
