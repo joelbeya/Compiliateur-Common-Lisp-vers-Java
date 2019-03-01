@@ -1,7 +1,6 @@
 ## Compilation de Lisp en VM Java
 
-Ce projet a pour consiste en la programmation d'un compilateur du langage Common Lisp
-vers la machine virtuelle JAVA.
+Ce projet a pour consiste en la programmation d'un compilateur du langage Common Lisp vers la machine virtuelle JAVA.  
 Le compilateur est programmé en Common Lisp.
 
 ### Cadre
@@ -10,16 +9,14 @@ Ce projet est réalisé dans le cadre du TER de M1, dispensé à l'Université d
 
 ### Auteurs
 
-[ZORO-BI ZAH Jean-Emmanuel](zah.zoro-bi@etu.umontpellier.fr)
+[ZORO-BI ZAH Jean-Emmanuel](zah.zoro-bi@etu.umontpellier.fr)  
 [BEYA NTUMBA Joël](joel.beya-ntumba@etu.ummontpellier.fr)  
-[MINKO AMOA Imrhan Dareine](imrhan-dareine.minko-amoa@etu.umontpellier.fr)  
-[QUENETTE Christophe](christophe.quenette@etu.umontpellier.fr)
+[MINKO AMOA Imrhan Dareine](imrhan-dareine.minko-amoa@etu.umontpellier.fr)   
 
 ### Encadrants
 
-[LAFOURCADE Mathieu](mathieu.lafourcade@lirmm.fr)
+[LAFOURCADE Mathieu](mathieu.lafourcade@lirmm.fr)  
 [DELAHAYE David](David.Delahaye@lirmm.fr)
-
 
 ### Liens Utiles
 
