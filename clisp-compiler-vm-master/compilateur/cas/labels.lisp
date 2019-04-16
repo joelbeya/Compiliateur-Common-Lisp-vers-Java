@@ -10,7 +10,7 @@
   ) 
 
 (defun compilation-faux (exp env fenv nomf)
-  (if (null exp) 
+  (if (null exp)
       ()
     (let ((nivem (assoc (caar exp) fenv)))
       (append '((FENTRY))
