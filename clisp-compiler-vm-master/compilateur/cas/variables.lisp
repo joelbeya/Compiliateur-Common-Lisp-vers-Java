@@ -5,7 +5,7 @@
     (append (compilation (cadr exp) env fenv nomf)
 	    (let ((var (assoc (car exp) env)))
 	      (if var
-		  (if (eql (cadr exp) 'loc) '((MOVE :R0 (cdr var))))
+		  (if (eql (cadr exp) 'ldc) '((MOVE :R0 (cdr var))))
 		`((VARG ,(car exp)))
 		)
 	      )
@@ -13,7 +13,7 @@
 	    (compilation-setf (cddr exp) env fenv nomf))
     )
   )
-      
+
 (defun compilation-let (exp env fenv nomf)
   (let ((nivem (assoc nomf fenv)))
     (append (compilation-local (car exp) env fenv nomf)
@@ -23,7 +23,7 @@
   )
 
 (defun compilation-local (exp env fenv nomf)
-  (if (null exp) 
+  (if (null exp)
       ()
     (append (compilation (cadar exp) env fenv nomf)
 	    '((PUSH :R0))
@@ -32,15 +32,15 @@
   )
 
 (defun depile-local (exp env fenv nomf)
-  (if (null exp) 
+  (if (null exp)
       ()
     (append '((POP :R1)) (depile-local (cdr exp) env fenv nomf))
     )
   )
 
-(defun local-env (exp env dep nivem)  
-  (if (atom exp) 
+(defun local-env (exp env dep nivem)
+  (if (atom exp)
       env
-    (local-env (cdr exp) (cons (cons (caar exp) `(LOC ,dep ,nivem)) env) (+ 1 dep) nivem)
+    (local-env (cdr exp) (cons (cons (caar exp) `(LDC ,dep ,nivem)) env) (+ 1 dep) nivem)
     )
   )
