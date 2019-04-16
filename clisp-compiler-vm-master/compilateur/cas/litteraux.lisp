@@ -1,20 +1,20 @@
 ;; Compilation de littéraux.
 
 (defun compilation-const (exp)
-  `((MOVE (:DIESE ,exp) :R0))
+  '()
   )
 
 (defun compilation-varg (exp)
-  `((MOVE (:* :@ ,exp) :R0))
+  '()
   )
 
 (defun compilation-litt (exp env fenv nomf)
   (let ((var (assoc exp env)))
     (cond
      ((not (null var))
-      (if (eql (cadr var) 'loc) 
+      (if (eql (cadr var) 'ldc)
 	  `((MOVE ,(cdr var) :R0))
-	(if (numberp (cadr var)) 
+	(if (numberp (cadr var))
 	    (compilation-const (cdr var)))
 	)
       )
