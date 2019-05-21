@@ -211,7 +211,7 @@ Machine virtuelle:
 > OK : "Factorielle" : (FACT 9) = 362880
 
 > F  : (DEFUN FACT-RT (N &OPTIONAL (ACC 1)) (IF (<= N 1) ACC (FACT-RT (- N 1) (* ACC N))))
-> Real time: 0.029055 sec.
+> Real time: 0.029055 sec
 > Run time: 0.029024 sec.
 > Space: 72284 Bytes
 > OK : "Factorielle récursive terminale" : (FACT 11) = 39916800

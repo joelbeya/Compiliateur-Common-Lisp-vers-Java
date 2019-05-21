@@ -24,3 +24,11 @@
     )
   )
 )
+
+(defun write-to-file (name (compilation code))
+  (with-open-file (stream  name :external-format charset:iso-8859-1
+                         :direction :output
+                         :if-exists :overwrite
+                         :if-does-not-exist :create )
+  (format stream content))
+  name)
