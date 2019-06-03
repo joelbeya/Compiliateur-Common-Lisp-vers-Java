@@ -2,23 +2,15 @@
 .super java/lang/Object
 .method public static fact(Ljava/lang/Object;)Ljava/lang/Object;
 
-  ldc 1 ; rajoute l'entier 1 sur la stack
+  aload 0
+  ldc 1
   invokestatic java/lang/Integer.valueOf(I)Ljava/lang/Integer;
   astore 1
   aload 1
-  aload 0
   invokevirtual Redefinion/supp(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-  astore 1
-  aload 1
   checkcast java/lang/Boolean
-  astore 1
-  aload 1
   invokevirtual java/lang/Boolean.booleanValue()Z
-  astore 1
-  aload 1
   ifeq recursivecall
-  astore 1
-  aload 1
   iconst_1
   invokestatic java/lang/Integer.valueOf(I)Ljava/lang/Integer;
   astore 1
@@ -27,6 +19,10 @@
 
   recursivecall:
   aload 0
+  aload 1
+  aload 0
+  aload 0
+  aload 1
   ldc 1
   invokestatic java/lang/Integer.valueOf(I)Ljava/lang/Integer;
   astore 1
