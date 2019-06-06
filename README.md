@@ -7,6 +7,12 @@ Le compilateur est programmé en Common Lisp.
 
 Ce projet est réalisé dans le cadre du TER de M1, dispensé à l'Université de Montpellier.
 
+### Prérequis
+
+- Installer Common Lisp et l'environement CLisp
+- Installer JAVA JDK et JRE ainsi que la JVM
+- Installer Jamin 
+
 ### Auteurs
 
 [ZORO-BI ZAH Jean-Emmanuel](https://gitlab.info-ufr.univ-montp2.fr/u/e20150008609)  
@@ -20,4 +26,4 @@ Ce projet est réalisé dans le cadre du TER de M1, dispensé à l'Université d
 
 ### Liens Utiles
 
-[Google Doc Projet](https://docs.google.com/document/d/1kOjWi5DOmbyKnuwPue7QjgfOOr05JY5dL9qbhThXrFs)  
+[Google Doc Projet](https://docs.google.com/document/d/1kOjWi5DOmbyKnuwPue7QjgfOOr05JY5dL9qbhThXrFs)
