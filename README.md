@@ -10,7 +10,7 @@ Ce projet est réalisé dans le cadre du TER de M1, dispensé à l'Université d
 ### Prérequis
 
 - Installer Common Lisp et l'environement CLisp
-- Installer JAVA JDK et JRE ainsi que la JVM
+- Installer JAVA JDK et JRE
 - Installer Jamin 
 
 ### Auteurs
