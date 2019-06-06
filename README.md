@@ -9,17 +9,15 @@ Ce projet est réalisé dans le cadre du TER de M1, dispensé à l'Université d
 
 ### Auteurs
 
-[ZORO-BI ZAH Jean-Emmanuel](zah.zoro-bi@etu.umontpellier.fr)  
-[BEYA NTUMBA Joël](joel.beya-ntumba@etu.ummontpellier.fr)  
-[MINKO AMOA Imrhan Dareine](imrhan-dareine.minko-amoa@etu.umontpellier.fr)   
+[ZORO-BI ZAH Jean-Emmanuel](https://gitlab.info-ufr.univ-montp2.fr/u/e20150008609)  
+[BEYA NTUMBA Joël](https://gitlab.info-ufr.univ-montp2.fr/u/travailpersonnel)  
+[MINKO AMOA Imrhan Dareine](https://gitlab.info-ufr.univ-montp2.fr/u/e20150007990)  
 
 ### Encadrants
 
-[LAFOURCADE Mathieu](mathieu.lafourcade@lirmm.fr)  
-[DELAHAYE David](David.Delahaye@lirmm.fr)
+[LAFOURCADE Mathieu](http://www.lirmm.fr/~lafourcade/index2.html)  
+[DELAHAYE David](http://www.lirmm.fr/~delahaye/)  
 
 ### Liens Utiles
 
 [Google Doc Projet](https://docs.google.com/document/d/1kOjWi5DOmbyKnuwPue7QjgfOOr05JY5dL9qbhThXrFs)  
-
-[ML](http://www.lirmm.fr/~lafourcade/ML-enseign/Compilation/compil-GenCode.HTML)   
